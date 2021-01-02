@@ -1,0 +1,3 @@
+4 files: working toward consistent test accuracy > 99.4
+paramters: <10K
+epochs: 15
