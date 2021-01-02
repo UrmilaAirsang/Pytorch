@@ -1,3 +1,67 @@
-4 files: working toward consistent test accuracy > 99.4
-paramters: <10K
-epochs: 15
+4 files: 
+#S5F1
+Target:
+1. Get the set-up right
+2. Set Transforms
+3. Set Data Loader
+4. Set Basic Working Code
+5. Set Basic Training  & Test Loop
+
+Results:
+1. Parameters: 9.7K
+2. Best Training Accuracy: 98.86
+3. Best Test Accuracy: 99.33
+
+Analysis:
+1. Initial model was with 20K reaching 99.4% test accuracy, now created model with 10K parameters
+2. Model is correct (No over-fitting, high bias less variance) , 
+BN is used, Next step is to try by removing drop out because model is not overfitting. 
+######################################################################################################
+
+#S5F2
+Target:
+1. Setup: model with less than 10K parameters
+
+Results:
+1. Parameters: 9.7K
+2. Best Training Accuracy: 98.86
+3. Best Test Accuracy: 99.33
+
+Analysis:
+1. Initial model was with 20K reaching 99.4% test accuracy, now created model with 10K parameters
+2. Model is correct (No over-fitting, high bias less variance) , 
+BN is used, Next step is to try by removing drop out because model is not overfitting.
+######################################################################################################
+
+#S5F3
+Target:
+1. Setup: Removing dropout
+2. Analysing with alternate model (varying model resources)
+3. Including image augmentation technique (RandomRotation)
+
+Results:
+1. Parameters: 9.7K
+2. Best Training Accuracy: 99.28
+3. Best Test Accuracy: 99.45
+
+Analysis:
+1. Removing drop out touched 99.45 test accuracy once, but its not consistant.
+2. To make it consistant need to play with LR 
+3. gap between train and test accuracy is reduced
+
+######################################################################################################
+#S5F4
+Target:
+1. Try with different optimizers like Adam, SDG etc
+2. Tune optimizer parametrs like LR, weight_decay, gamma, etc.
+
+Results:
+1. Parameters: 9.3K
+2. Best Training Accuracy: 
+3. Best Test Accuracy: 
+
+Analysis:
+1.   Tune the LR parameter to reduce the learning rate after every 4 epochs
+2.   Training accuracy consistently increased
+3.   Droupout is not used because Training accuracy did not get saturated(No overfitting is observed)
+4.   Batch normalization is used for every block
