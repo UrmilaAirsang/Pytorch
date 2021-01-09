@@ -1,0 +1,14 @@
+Program includes different type of regularization technique:
+1. GBN
+2. GBN+ L1+ L2
+3. BN + L1
+4. BN + L2
+5. BN + L1+ L2
+
+1. plots :  Validation accuracy and Validation loss
+2. 25 mis-classified images 
+
+Analysis:
+1. GBN+L1+L2 results in very heavy regularization. Thus it results in model underfit. Using regularization one thing can be said that model will is not overfitting.
+2. GBN and BN+L2 performs equally well. These are the best regularizations for our model.
+3. In the case of GBN+L1+L2 does not perform well. This is due to huge regularization, because regularization penalizes higher order polynomial and the model moves towards high bias (underfit).
