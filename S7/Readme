@@ -1,0 +1,14 @@
+
+
+#Attempt3: CreatingSeperate files
+
+1. Created seperate files for model, train, test, loader
+
+but could import only model
+
+##Achieved 80.4% test accuracy with 65K model parameters
+
+Remarks:
+Could create seperate model file. and loaded using import
+
+Rest files created, but last execution is not tracing those files
