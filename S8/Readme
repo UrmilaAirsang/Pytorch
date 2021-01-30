@@ -1,0 +1,14 @@
+#Creating Seperate files
+
+1. Created seperate files for data loader, model, train, test
+2. included Resnet18 model in model file
+3. Computed mean and standard deviation for CIFAR10 data
+4. used mean and std to normalize CIFAR10 data
+5. tried to used weights for different classes
+
+
+##Achieved : 86.55% using Resnet18 model
+
+Remarks:
+##Could acheive desired percent > 85% using normalization of data,
+but Model is overfitting, we can improve more by using regularizations and different image augamentation techniques
