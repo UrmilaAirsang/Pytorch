@@ -1,0 +1,14 @@
+Creating Seperate files
+
+1. Added albumentation data augmentation method in data loader file
+2. Implemented gradcam in a seperate file 
+
+
+Achieved : **87.71%** using Resnet18 model with Albumentation 
+
+Remarks:
+Learnings:
+1. How to incorporate albumentation in pytorch dataloader
+2. Gradcam implementation and working
+
+After 14 epochs model started to saturate and lead to overfitting. This can be avois=ded further by using regularizations and different image augmentation techniques
