@@ -1,0 +1,17 @@
+Creating Seperate files
+
+1. Added cutouts using albumentation
+2. Implemented lrfinder as seperate file
+3. display of misclassified 25 images using gradcam
+4. created train, test seperate classes, previously used as functions
+5. Use of ReduceLROnPlateau
+
+
+Achieved : **90.58%** using cutout and lrfinder on Resnet18 model
+
+Remarks:
+Learnings:
+1. incorporating lrfinder to improve accuracy by finding best learning rate
+
+
+
