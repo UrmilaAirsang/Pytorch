@@ -1,0 +1,19 @@
+#Tasks
+
+1. write a code for trigular wave generator
+2. create the custom resnet model
+3. find lrmin and lrmax
+4. Don't use Annihilation
+5. Use horiflip, cutout, crop in image augmentation
+
+--------------------------------------------------------------------
+
+##Achieved : **89%** using Custom Resnet model with Albumentation 
+
+Remarks:
+Learnings:
+1. calculating Step up and step down for cyclicLR depending on the iterations
+2. checked with OnecycleLR and studied on hyperparameters
+3. LRfinder using nll_loss gave good results, need to check why not using crossentropy
+
+
