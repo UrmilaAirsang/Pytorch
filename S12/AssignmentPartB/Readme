@@ -1,1 +1,41 @@
+Description about the JSON that is output from the vgg annotator:
+
+There are 4 objects that are annotated
+1. Hardhats->class0
+2. Vest---->class0
+3. Mask---->class0
+4. Boots--->class0
+
+{
+    "filename": "african-american-man-in-hardhat-and-safety-vest-picture-id637499188.jpg",
+    "file_size": 41248,
+    "file_attributes": {
+      "caption": "",
+      "public_domain": "no",
+      "image_url": ""
+    },
+    "region_count": 2,
+    "region_id": 0,
+    "region_shape_attributes": {
+      "name": "rect",
+      "x": 73,
+      "y": 71,
+      "width": 286,
+      "height": 187
+    },
+    "region_attributes": {
+      "": "",
+      "class": "0"
+    }
+  }
+  
+  I have used rectangle for all the annotations.
+
+A rect region has the following shape attributes:
+
+x : x coordinate of centre
+y : y coordinate of the centre
+width : width of the rectangle region
+height: height of the rectangle region
+
 
