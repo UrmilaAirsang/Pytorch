@@ -1,1 +1,37 @@
 AssignmentPartA AssignmentPartB
+
+Assignment A:
+Download this TINY IMAGENET dataset. 
+Train ResNet18 on this dataset (70/30 split) for 50 Epochs. Target 50%+ Validation Accuracy. 
+Submit Results. Of course, you are using your own package for everything. You can look at this  for reference.
+
+
+Assignment B:
+Download 50 (min) images each of people wearing hardhat, vest, mask and boots. 
+Use these labels (same spelling and small letters):
+hardhat
+vest
+mask
+boots
+Use this to annotate bounding boxes around the hardhat, vest, mask and boots.
+Download JSON file. 
+Describe the contents of this JSON file in FULL details (you don't need to describe all 10 instances, anyone would work). 
+Refer to this tutorial . Find out the best total numbers of clusters. Upload link to your Colab File uploaded to GitHub. 
+ 
+
+Questions in S12-Assignment-Solution:
+
+What is your final accuracy?
+
+=> 56.03%
+
+Share the Github link to your ResNet-Tiny-ImageNet code. All the logs must be visible. 
+=> link: 
+
+Describe the contents of the JSON file in detail. You need to explain each element in detail. 
+
+Share the link to your Github file where you have calculated the best K clusters for your 50 dog dataset. 
+
+Share the link to your  hardhat, vest, mask and boots Images Folder on GitHub
+
+Share the link to your JSON file on GitHub
