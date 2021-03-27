@@ -73,6 +73,6 @@ As you can see in the collage image above, a lot is going on, and if you are cre
 
 
 **Results**
-After training for 300 Epochs, results look awesome!
+After training for 3 Epochs, results look awesome!
 
 ![image](https://github.com/UrmilaAirsang/Pytorch/blob/main/S13/PartB/image-143.jpg)
