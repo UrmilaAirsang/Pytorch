@@ -1,7 +1,7 @@
 # YoloV3
 ________
 
-##youtubelink: https://youtu.be/RD6NhK9ljm0
+youtubelink: https://youtu.be/RD6NhK9Ijm0
 
 YoloV3 Simplified for training on Colab with custom dataset. 
 
