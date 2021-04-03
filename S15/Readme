@@ -19,7 +19,7 @@ We use a custom dataset that was prepared manually and annotated using this tool
 3. Mask
 4. Boots
 
-Dat set contains following information about the dataset
+Data set contains following information about the dataset
 1. plannercnn output
 2. YoloV3 bounding boxes (labels.txt)
 3. MiDas (gray scale images)
