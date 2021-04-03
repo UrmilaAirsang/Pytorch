@@ -1,0 +1,35 @@
+Folder 1: Input Images and bounding boxes locations
+Data set contains labels with hardhat, vest, mask and boots  
+Shareable link:
+
+Folder 2: Depth images generated using MiDas 
+GitHub repo : https://github.com/intel-isl/MiDaS
+Ipynb file:
+Sharable link:
+
+Folder 3: Surface Planes generated using PlanerCNN
+Github repo: https://github.com/NVlabs/planercnn
+Ipynb file:
+Sharable link:
+
+Data:
+We use a custom dataset that was prepared manually and annotated using this tool. Our dataset contains images for the following classes:
+1. Hardhat
+2. Vest
+3. Mask
+4. Boots
+
+Dat set contains following information about the dataset
+1. plannercnn output
+2. YoloV3 bounding boxes (labels.txt)
+3. MiDas (gray scale images)
+
+Actual Assignment details:
+
+1. Look at this model: https://github.com/intel-isl/MiDaS (Links to an external site.)
+2. Look at this model: https://github.com/NVlabs/planercnn
+3. Now you have your helmet, mask, PPE, and boots dataset as well
+4. Take your dataset and run it through Midas and get depth images.
+5. Take your dataset and run it through the PlanerCNN model and get planer images (you'll not be using the depth images from PlanerCNN, so don't store them). 
+6. Now your dataset contains depth map, surface planes, and bounding boxes for the classes
+7. Upload to your google drive with a shareable link to everyone, and add a GitHub repo that describes the dataset properly. 
