@@ -1,16 +1,15 @@
-Folder 1: Input Images and bounding boxes locations
+
+Sharable link: https://drive.google.com/drive/folders/1vuXo4wVWCwzrwpvBCSpoI7k7CRkVkW3R?usp=sharing 
+
+1: Input Images and bounding boxes locations
 Data set contains labels with hardhat, vest, mask and boots  
-Shareable link:
 
-Folder 2: Depth images generated using MiDas 
+2: Depth images generated using MiDas 
 GitHub repo : https://github.com/intel-isl/MiDaS
-Ipynb file:
-Sharable link:
 
-Folder 3: Surface Planes generated using PlanerCNN
+3: Surface Planes generated using PlanerCNN
 Github repo: https://github.com/NVlabs/planercnn
-Ipynb file:
-Sharable link:
+
 
 Data:
 We use a custom dataset that was prepared manually and annotated using this tool. Our dataset contains images for the following classes:
