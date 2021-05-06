@@ -1,0 +1,10 @@
+..\yolo\Images\.DS_Store
+..\yolo\Images\_112919912_gettyimages-1220030093.jpg
+..\yolo\Images\01-prince-boots - Copy.jpg
+..\yolo\Images\026f0ffddc.jpg
+..\yolo\Images\032620_LS_covid-masks_inline-680.jpg
+..\yolo\Images\046acbc8e1.jpg
+..\yolo\Images\050bdc8229cf18030e2d8a266dd334af84-23-chelsea-boots.rsquare.w1200 - Copy.jpg
+..\yolo\Images\051fa0f9fd.jpg
+..\yolo\Images\05a207d8-6378-43a2-9d1e-431ca7a944e4-unnamed - Copy.jpg
+..\yolo\Images\088b63b347a4e40f0777df612ebe490a.jpg
