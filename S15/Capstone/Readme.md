@@ -33,3 +33,4 @@ Planercnn: https://github.com/NVlabs/planercnn
     2.  PlanerCNN: https://www.dropbox.com/s/yjcg6s57n581sk0/checkpoint.zip?dl=0
 2. Assignment15 py file: https://github.com/UrmilaAirsang/Pytorch/blob/main/S15/Capstone/mainfolder/Assignment15.py
 3. Capstone Logs : https://github.com/UrmilaAirsang/Pytorch/blob/main/S15/Capstone/CapstoneLogs.pdf 
+4. Images, Label are stored locally and in drive 
