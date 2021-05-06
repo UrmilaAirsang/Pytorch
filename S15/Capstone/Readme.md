@@ -1,3 +1,4 @@
+**Capstone Logs : https://github.com/UrmilaAirsang/Pytorch/blob/main/S15/Capstone/CapstoneLogs.pdf**
 
 Data used: 
 1. 5000 interior images to train planer model
@@ -31,4 +32,4 @@ Planercnn: https://github.com/NVlabs/planercnn
     1.  Midas: https://github.com/intel-isl/DPT/releases/download/1_0/dpt_large-midas-2f21e586.pt
     2.  PlanerCNN: https://www.dropbox.com/s/yjcg6s57n581sk0/checkpoint.zip?dl=0
 2. Assignment15 py file: https://github.com/UrmilaAirsang/Pytorch/blob/main/S15/Capstone/mainfolder/Assignment15.py
-3. Logs : 
+3. Capstone Logs : https://github.com/UrmilaAirsang/Pytorch/blob/main/S15/Capstone/CapstoneLogs.pdf 
